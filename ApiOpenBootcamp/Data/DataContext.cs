@@ -8,5 +8,6 @@ namespace ApiOpenBootcamp.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Users>? Users { get; set; }
+        public DbSet<Curso>? Curso { get; set; }
     }
 }
